@@ -34,7 +34,7 @@ class SortObject // 배열을 정렬할 수 있는 기능을 가진 타입 정�
                     {
                         lowPos = j;
                     }
-            }
+            }//'~'
 
             temp = numbers[lowPos];
             numbers[lowPos] = numbers[i];
@@ -61,3 +61,4 @@ class Program
         so.Display();
     }
 }
+//+~+
